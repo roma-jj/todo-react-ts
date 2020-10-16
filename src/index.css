@@ -5,9 +5,83 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, #009fff, #ec2f4b);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.app__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #aa076b, #61045f);
+}
+
+.app__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__container {
+  display: block;
+}
+
+.form__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.form__label {
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.list__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.todo {
+  margin-bottom: 1rem;
+  list-style: none;
+}
+
+.todo.completed span {
+  text-decoration: line-through;
+}
+
+.todo label {
+  padding: 1rem;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #aa076b, #61045f);
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.todo i {
+  z-index: 2;
+}
+
+.checkbox {
+  z-index: 2;
+}
+
+.no-tasks {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
